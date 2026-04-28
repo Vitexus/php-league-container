@@ -1,0 +1,16 @@
+Source: php-league-container
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://github.com/thephpleague/container
+Vcs-Git: https://github.com/Vitexus/php-league-container.git
+Rules-Requires-Root: no
+
+Package: php-league-container
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, composer, php-psr-container, php-psr-event-dispatcher
+Description: A fast and intuitive dependency injection container
+ League Container is a fast and intuitive dependency injection container
+ implementing PSR-11, with service providers and inflectors.
