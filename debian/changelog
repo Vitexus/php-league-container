@@ -1,4 +1,4 @@
-php-league-container (6.0.0-1~trixie) trixie; urgency=low
+php-league-container (6.0.0) trixie; urgency=low
 
   * Initial Debian packaging
 
